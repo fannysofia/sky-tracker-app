@@ -1,0 +1,183 @@
+@import "./variables.scss";
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: $font-poppins;
+	background-color: $clr-charade;
+	color: $clr-white;
+	max-width: 67.5rem;
+	margin: 1.875rem auto;
+	width: 92.5%;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	font-family: $font-nova;
+	font-size: 2.5rem;
+	text-align: center;
+	color: $clr-tapestry;
+}
+
+h1 {
+	&::after {
+		content: '';
+		border: 0.1875rem solid $clr-flesh;
+		width: 100%;
+		display: block;
+		margin: -0.3125rem auto 1.25rem auto;
+	}
+}
+
+h2 {
+	font-family: $font-nova;
+	font-size: 1.875rem;
+	text-align: center;
+	color: $clr-tapestry;
+}
+
+.visible-planets-wrap {
+	margin-top: 4.375rem;
+	display: flex;
+	justify-content: center;
+}
+
+.visible-planets-title {
+	&::after {
+		content: '';
+		border: 0.1875rem solid $clr-flesh;
+		width: 100%;
+		display: block;
+		margin: -0.3125rem auto 1.25rem auto;
+	}
+}
+
+.btn {
+	background: $clr-white;
+	color: $clr-mine-shaft;
+	border: none;
+	padding: 0.625rem 1.25rem;
+	margin: 0.3125rem auto;
+	border-radius: 0.3125rem;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 0.8125rem;
+	font-family: inherit;
+
+	&:active {
+		transform: scale(0.98);
+	}
+
+	&:hover {
+		background: $clr-regent-st-blue;
+	}
+}
+
+.btn-block {
+	display: block;
+	width: 100%;
+}
+
+a {
+	color: $clr-gray-suit;
+
+	&:hover {
+		color: $clr-tapestry;
+	}
+}
+
+.timestamp {
+	text-align: center;
+	margin-top: 1.875rem;
+}
+
+.location-wrap {
+	text-align: center;
+	margin-top: 1.875rem;
+
+  .location-name {
+    margin-right: 0.9375rem;
+  }
+
+  .location-control,
+  .location-control {
+    margin-right: 0.9375rem;
+  }
+}
+
+.planet-wrap-inner {
+	display: flex;
+	justify-content: center;
+	margin: 1.875rem 0 3.125rem 0;
+}
+
+.planet-item {
+	padding: 1.25rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	flex-basis: 50%;
+	width: 50%;
+}
+
+.img {
+	max-width: 5.625rem;
+	width: 100%;
+}
+
+.cloud-button-wrap {
+	text-align: center;
+	margin-bottom: 3.125rem;
+}
+
+.weather-wrap {
+	max-width: 18.75rem;
+	padding: 1.875rem;
+	text-align: center;
+	margin-bottom: 6.25rem;
+	font-size: 0.9375rem;
+	margin: 0 auto;
+	border: 0.3125rem solid transparent;
+	border-image: linear-gradient(to bottom right, $clr-oyster-pink 0%, $clr-ebb 25%, $clr-polar 50%, $clr-dew 75%, $clr-twilight-blue 100%);
+	border-image-slice: 1;
+}
+
+.location {
+	margin-bottom: 0.9375rem;
+}
+
+footer {
+	margin-top: 1.875rem;
+	text-align: center;
+}
+
+.footer-nav {
+	a {
+		text-align: center;
+		margin-right: 2.5rem;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.copyright-img {
+	margin-bottom: 1.875rem;
+}
+
+.about {
+	text-align: center;
+	margin: 3.125rem 0;
+
+	> p {
+		margin: 3.125rem 0;
+	}
+}
