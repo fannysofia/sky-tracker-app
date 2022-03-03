@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sky-tracker-app/static/css/main.7d2ceaa1.css",
+    "main.js": "/sky-tracker-app/static/js/main.d03a6769.js",
+    "static/js/787.226f4826.chunk.js": "/sky-tracker-app/static/js/787.226f4826.chunk.js",
+    "static/media/img-jupiter.png": "/sky-tracker-app/static/media/img-jupiter.eaf36857db18fb4cb54f.png",
+    "static/media/img-mercury.png": "/sky-tracker-app/static/media/img-mercury.352fad273a22412b2eb9.png",
+    "static/media/img-mars.png": "/sky-tracker-app/static/media/img-mars.1a0b89d09f9147d0678f.png",
+    "static/media/img-neptune.png": "/sky-tracker-app/static/media/img-neptune.dcf381175af76168fb26.png",
+    "static/media/img-uranus.png": "/sky-tracker-app/static/media/img-uranus.743263edf2b0827672c8.png",
+    "static/media/img-saturn.png": "/sky-tracker-app/static/media/img-saturn.436b90006d41c1ae0db2.png",
+    "static/media/img-venus.png": "/sky-tracker-app/static/media/img-venus.15d04d48f7474cb9b7e7.png",
+    "index.html": "/sky-tracker-app/index.html",
+    "main.7d2ceaa1.css.map": "/sky-tracker-app/static/css/main.7d2ceaa1.css.map",
+    "main.d03a6769.js.map": "/sky-tracker-app/static/js/main.d03a6769.js.map",
+    "787.226f4826.chunk.js.map": "/sky-tracker-app/static/js/787.226f4826.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d2ceaa1.css",
+    "static/js/main.d03a6769.js"
+  ]
+}
