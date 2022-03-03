@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Sky Tracker App
+
+## What celestial objects can I see at this moment?
+
+Background of the movements in solar systems goes here.
+
+## The mission and state of development
+
+Why did I do this? 
+
+What else should be implemented?
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
