@@ -17,7 +17,7 @@ const Timestamp = () => {
 
   return (
     <>
-    {location.pathname === '/' && (
+    {location.pathname === '/sky-tracker-app' && (
       <section className='timestamp'>
           <article>Current Time : {days} {date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</article>
       </section>

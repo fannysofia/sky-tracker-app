@@ -6,7 +6,7 @@ const Location = ({ inputHandler, getState, submitHandler }) => {
 
   return (
     <>
-    {location.pathname === '/' && (
+    {location.pathname === '/sky-tracker-app' && (
       <section className='location-wrap'>
         <label htmlFor='location-name' className='location-name'>
           Enter Location: 

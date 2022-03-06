@@ -99,7 +99,7 @@ const fetchPlanets = async () => {
       />
       <Routes>
       <Route 
-        path="/" 
+        path="/sky-tracker-app" 
         exact  
         element= {
           <>

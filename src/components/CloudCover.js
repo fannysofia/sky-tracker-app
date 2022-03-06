@@ -7,7 +7,7 @@ const CloudCover = ({ onClick, showCloudCover  }) => {
 
   return (
     <section className='cloudcover-wrap'>
-      {location.pathname === '/' && (
+      {location.pathname === '/sky-tracker-app' && (
         <article className='cloud-button-wrap'>
           <Button 
               color={showCloudCover ? '#686884' : '#efeff2'}

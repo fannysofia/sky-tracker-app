@@ -13,7 +13,7 @@ const Button = ({ color, text_color, text, className, onClick }) => {
 
     return (
         <>
-        {location.pathname === '/' && (
+        {location.pathname === '/sky-tracker-app' && (
             <button 
                 onClick={onClick} 
                 style={buttonStyles}
