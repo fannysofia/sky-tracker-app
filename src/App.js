@@ -31,8 +31,6 @@ useEffect(() => {
  
 
 const inputHandler = (event) => {
-  // Object.values(apiData).map(val => setLat(val.coord.lat));
-  // Object.values(apiData).map(val => setLon(val.coord.lon));
   setInputState(event.target.value);
 };
 
