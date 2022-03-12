@@ -13,13 +13,13 @@ const App = () => {
 // State
 const [apiData, setApiData] = useState({});
 const [getState, setGetState] = useState('Helsinki');
-const [state, setState] = useState('Helsinki');
+const [validState, setValidState] = useState('Helsinki');
 const [latValue, setLat] = useState('63');
 const [lonValue, setLon] = useState('21');
 
 // Weather API KEY AND URL
 const apiKey = process.env.REACT_APP_API_KEY;
-const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${state}&appid=${apiKey}`;
+const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${validState}&appid=${apiKey}`;
 const planetApiUrl = `https://visible-planets-api.herokuapp.com/v2?latitude=${latValue}&longitude=${lonValue}`;
 
 // Side effect
@@ -37,7 +37,7 @@ const inputHandler = (event) => {
 };
 
 const submitHandler = () => {
-  setState(getState);
+  setValidState(getState);
 };
 
 // Planet API:
