@@ -12,7 +12,7 @@ import ShowWeather from './components/ShowWeather'
 const App = () => {
 // State
 const [apiData, setApiData] = useState({});
-const [getState, setGetState] = useState('Helsinki');
+const [inputState, setInputState] = useState('Helsinki');
 const [validState, setValidState] = useState('Helsinki');
 const [latValue, setLat] = useState('63');
 const [lonValue, setLon] = useState('21');
@@ -31,13 +31,13 @@ useEffect(() => {
  
 
 const inputHandler = (event) => {
-  setGetState(event.target.value);
   // Object.values(apiData).map(val => setLat(val.coord.lat));
   // Object.values(apiData).map(val => setLon(val.coord.lon));
+  setInputState(event.target.value);
 };
 
 const submitHandler = () => {
-  setValidState(getState);
+  setValidState(inputState);
 };
 
 // Planet API:
@@ -76,7 +76,7 @@ const fetchPlanets = async () => {
         <Timestamp />
         <Location 
           inputHandler={inputHandler} 
-          getState={getState} 
+          getState={inputState} 
           submitHandler={submitHandler} 
         />
         <Routes>
