@@ -29,6 +29,10 @@ useEffect(() => {
     .then((data) => setApiData(data));
   }, [apiUrl]);
  
+useEffect(() => {
+  setLat(apiData?.coord?.lat);
+  setLon(apiData?.coord?.lon);
+}, [apiData])
 
 const inputHandler = (event) => {
   setInputState(event.target.value);
@@ -51,7 +55,7 @@ const submitHandler = () => {
     }
 
     getPlanets()
-  }, [])
+  }, [planetApiUrl])
 
 // Fetch Planets
 const fetchPlanets = async () => {
