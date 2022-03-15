@@ -30,26 +30,21 @@ const App = () => {
       .then((data) => setApiData(data))
   }, [apiUrl]);
 
-    getPlanets()
-  }, [planetApiUrl])
   useEffect(() => {
+    fetch(planetApiUrl)
+      .then((res) => res.json())
+      .then((data) => setPlanets(data.data))
+  }, [planetApiUrl]);
+  
   useEffect(() => {
     setLat(apiData?.coord?.lat);
     setLon(apiData?.coord?.lon);
   }, [apiData])
 
-// Fetch Planets
-const fetchPlanets = async () => {
-  const res = await fetch(planetApiUrl)
-  console.log(planetApiUrl)
-  const data = await res.json()
-  const visiblePlanets = data.data
   const inputHandler = (event) => {
     setInputState(event.target.value);
   };
 
-  return visiblePlanets
-}
   const submitHandler = () => {
     setValidState(inputState);
   };
