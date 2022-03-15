@@ -9,7 +9,7 @@ const Location = ({ inputHandler, getState, submitHandler }) => {
     {location.pathname === '/sky-tracker-app' && (
       <section className='location-wrap'>
         <label htmlFor='location-name' className='location-name'>
-          Enter Location: 
+          Enter Location (City/Country): 
         </label>
 
         <input
