@@ -11,7 +11,7 @@ const Footer = () => {
         <nav className='footer-nav'>
           <Link to="/sky-tracker-app">Home</Link>
           <Link to="/sky-tracker-app/about">About</Link>
-          <a href="https://github.com/fannysofia">View project on GitHub</a>
+          <a href="https://github.com/fannysofia/sky-tracker-app">View project on GitHub</a>
         </nav>
     </footer>
   )
