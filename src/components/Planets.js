@@ -1,11 +1,11 @@
 import Planet from './Planet'
 
-const Planets = ({ planets }) => {
+const Planets = ({ location, planets }) => {
   return (
     <>
       <section className="planet-wrap">
         <article className='visible-planets-wrap'>
-            <h2 className='visible-planets-title'>Visible celestial objects</h2>
+            <h2 className='visible-planets-title'>Visible celestial objects in {location.name}, {location.sys.country}</h2>
         </article>
         <section className="planet-wrap-inner"> 
         {planets.length > 0 ? (planets.map((planet) => (

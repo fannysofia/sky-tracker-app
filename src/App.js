@@ -67,7 +67,9 @@ const App = () => {
             path="/sky-tracker-app" 
             exact 
             element= {
-              <Planets planets={planets} />
+              <> {apiData.main &&
+              <Planets location={apiData} planets={planets} />}
+              </>
             }
           />
           <Route 
