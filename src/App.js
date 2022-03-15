@@ -10,17 +10,15 @@ import Timestamp from './components/Timestamp'
 import ShowWeather from './components/ShowWeather'
 
 const App = () => {
-// State
-const [apiData, setApiData] = useState({});
-const [inputState, setInputState] = useState('Helsinki');
-const [validState, setValidState] = useState('Helsinki');
-const [latValue, setLat] = useState('63');
-const [lonValue, setLon] = useState('21');
+  const [apiData, setApiData] = useState({});
+  const [showCloudCover, setShowCloudCover] = useState(false);
+  const [planets, setPlanets] = useState([]);
+  const [inputState, setInputState] = useState('Helsinki');
+  const [validState, setValidState] = useState('Helsinki');
+  const [latValue, setLat] = useState('63');
+  const [lonValue, setLon] = useState('21');
 
-// Weather API KEY AND URL
-const apiKey = process.env.REACT_APP_API_KEY;
-const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${validState}&appid=${apiKey}`;
-const planetApiUrl = `https://visible-planets-api.herokuapp.com/v2?latitude=${latValue}&longitude=${lonValue}`;
+  const apiKey = process.env.REACT_APP_API_KEY;
 
 // Side effect
 useEffect(() => {
@@ -42,11 +40,8 @@ const submitHandler = () => {
   setValidState(inputState);
 };
 
-// Planet API:
-
-  const [showCloudCover, setShowCloudCover] = useState(false)
-
-  const[planets, setPlanets] = useState([])
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${validState}&appid=${apiKey}`;
+  const planetApiUrl = `https://visible-planets-api.herokuapp.com/v2?latitude=${latValue}&longitude=${lonValue}`;
 
   useEffect(() => {
     const getPlanets = async () => {
