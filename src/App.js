@@ -20,37 +20,23 @@ const App = () => {
 
   const apiKey = process.env.REACT_APP_API_KEY;
 
-// Side effect
-useEffect(() => {
-  fetch(apiUrl)
-    .then((res) => res.json())
-    .then((data) => setApiData(data));
-  }, [apiUrl]);
- 
-useEffect(() => {
-  setLat(apiData?.coord?.lat);
-  setLon(apiData?.coord?.lon);
-}, [apiData])
-
-const inputHandler = (event) => {
-  setInputState(event.target.value);
-};
-
-const submitHandler = () => {
-  setValidState(inputState);
-};
-
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${validState}&appid=${apiKey}`;
   const planetApiUrl = `https://visible-planets-api.herokuapp.com/v2?latitude=${latValue}&longitude=${lonValue}`;
 
   useEffect(() => {
-    const getPlanets = async () => {
-      const planetsFromServer = await fetchPlanets()
-      setPlanets(planetsFromServer)
-    }
+    console.log('weather use effect', validState)
+    fetch(apiUrl)
+      .then((res) => res.json())
+      .then((data) => setApiData(data))
+  }, [apiUrl]);
 
     getPlanets()
   }, [planetApiUrl])
+  useEffect(() => {
+  useEffect(() => {
+    setLat(apiData?.coord?.lat);
+    setLon(apiData?.coord?.lon);
+  }, [apiData])
 
 // Fetch Planets
 const fetchPlanets = async () => {
@@ -58,9 +44,15 @@ const fetchPlanets = async () => {
   console.log(planetApiUrl)
   const data = await res.json()
   const visiblePlanets = data.data
+  const inputHandler = (event) => {
+    setInputState(event.target.value);
+  };
 
   return visiblePlanets
 }
+  const submitHandler = () => {
+    setValidState(inputState);
+  };
 
   return (
     <>
