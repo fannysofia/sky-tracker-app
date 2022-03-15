@@ -4,11 +4,17 @@
 
 Background of the movements in solar systems goes here.
 
-## The mission and state of development
+## The mission
 
 Why did I do this? 
 
-What else should be implemented?
+## Features for the future
+
+These features could be implemented in the future:
+* Location validation & error message
+* Set location based on user's geolocation
+* Add isLoading (or not: https://kentcdodds.com/blog/stop-using-isloading-booleans)
+* Expand the range of celestial objects to be shown (asteroids, sun etc.)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
