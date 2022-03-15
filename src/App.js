@@ -24,7 +24,6 @@ const App = () => {
   const planetApiUrl = `https://visible-planets-api.herokuapp.com/v2?latitude=${latValue}&longitude=${lonValue}`;
 
   useEffect(() => {
-    console.log('weather use effect', validState)
     fetch(apiUrl)
       .then((res) => res.json())
       .then((data) => setApiData(data))
