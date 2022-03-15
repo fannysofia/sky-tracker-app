@@ -6,7 +6,7 @@ const ShowWeather = ({ apiData }) => {
   return (
   <div className='weather-wrap'>
     <div className='location'>
-      <h2>Weather at {apiData.name}, {apiData.sys.country}</h2>
+      <h2>Weather in {apiData.name}, {apiData.sys.country}</h2>
     </div>
 
     <div className='icon'>
