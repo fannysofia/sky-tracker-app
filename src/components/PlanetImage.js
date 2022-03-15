@@ -1,11 +1,11 @@
-import imgMoon from '.././images/img-moon.png'
-import imgUranus from '.././images/img-uranus.png'
-import imgVenus from '.././images/img-venus.png'
-import imgNeptune from '.././images/img-neptune.png'
-import imgJupiter from '.././images/img-jupiter.png'
-import imgMercury from '.././images/img-mercury.png'
-import imgMars from '.././images/img-mars.png'
-import imgSaturn from '.././images/img-saturn.png'
+import imgMoon from '.././assets/img/img-moon.png'
+import imgUranus from '.././assets/img/img-uranus.png'
+import imgVenus from '.././assets/img/img-venus.png'
+import imgNeptune from '.././assets/img/img-neptune.png'
+import imgJupiter from '.././assets/img/img-jupiter.png'
+import imgMercury from '.././assets/img/img-mercury.png'
+import imgMars from '.././assets/img/img-mars.png'
+import imgSaturn from '.././assets/img/img-saturn.png'
 
 const PlanetImage = ({ planet }) => {
   return (
