@@ -17,6 +17,7 @@ const App = () => {
   const [validState, setValidState] = useState('Helsinki');
   const [latValue, setLat] = useState('63');
   const [lonValue, setLon] = useState('21');
+  const [validLocation, setValidLocation] = useState(true);
 
   const apiKey = process.env.REACT_APP_API_KEY;
 
@@ -24,10 +25,16 @@ const App = () => {
   const planetApiUrl = `https://visible-planets-api.herokuapp.com/v2?latitude=${latValue}&longitude=${lonValue}`;
 
   useEffect(() => {
+    setValidLocation(true);
     fetch(apiUrl)
-      .then((res) => res.json())
+      .then((res) => { 
+        if (!res.ok) {
+          setValidLocation(false);
+        };
+        return res.json();
+      })
       .then((data) => setApiData(data))
-  }, [apiUrl]);
+  }, [apiUrl, validState]);
 
   useEffect(() => {
     fetch(planetApiUrl)
