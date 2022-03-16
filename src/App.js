@@ -89,7 +89,7 @@ const App = () => {
           />
         </Routes>
       </main>
-      { validLocation && 
+      {validLocation && 
       <CloudCover 
         onClick={() => setShowCloudCover(!showCloudCover)} 
         showCloudCover={showCloudCover} 
