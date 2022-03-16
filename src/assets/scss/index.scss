@@ -42,6 +42,13 @@ h2 {
 	color: $clr-tapestry;
 }
 
+.error {
+	text-align: center;
+	margin: 3.125rem 0;
+	color: $clr-tapestry;
+	font-size: 1.875rem;
+}
+
 .visible-planets-wrap {
 	margin-top: 4.375rem;
 	display: flex;
