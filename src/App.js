@@ -8,6 +8,7 @@ import Planets from './components/Planets'
 import CloudCover from './components/CloudCover'
 import Timestamp from './components/Timestamp'
 import ShowWeather from './components/ShowWeather'
+import Error from './components/Error'
 
 const App = () => {
   const [apiData, setApiData] = useState({});
