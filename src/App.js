@@ -75,8 +75,11 @@ const App = () => {
             path="/sky-tracker-app" 
             exact 
             element= {
-              <> {apiData.main &&
-              <Planets location={apiData} planets={planets} />}
+              <> {validLocation ? ( apiData.main &&
+              <Planets location={apiData} planets={planets} />
+              ) : 
+              <Error />
+            } 
               </>
             }
           />
@@ -86,10 +89,11 @@ const App = () => {
           />
         </Routes>
       </main>
+      { validLocation && 
       <CloudCover 
         onClick={() => setShowCloudCover(!showCloudCover)} 
         showCloudCover={showCloudCover} 
-      />
+      />}
       <Routes>
       <Route 
         path="/sky-tracker-app" 
