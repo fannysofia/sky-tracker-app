@@ -1,8 +1,46 @@
 # Sky Tracker App
 
-## What celestial objects can I see at this moment?
+## Spiraling through space
 
-Background of the movements in solar systems goes here.
+Our solar system is made up of a star we call the Sun, eight planets (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune) and billions of other objects like dwarf planets (most known is Pluto), comets, asteroids and meteoroids. 
+
+The whole solar system and its local stars orbits our spiral home galaxy, the Milky Way, at approximately 828,000 kph. It takes our solar system about 230 million years to complete one orbit around the galactic center. 
+
+The planets in our solar system have more than 200 moons in their orbits. 
+
+So far, our solar system is the only one known to support life.
+
+### Mercury
+
+Mercury is closest to the Sun. It is very hot on the sun side while the dark side can reach freezing temperature. Mercury is very cratered due to debris from comets, asteroids and so on. 
+
+### Venus
+
+Venus is the second planet in our solar system. It has high levels of carbon dioxide that result in a “runaway” greenhouse effect. This trapping of solar radiation results in very high temperatures. 
+
+### Mars
+
+Mars is the fourth planet in our solar system. It’s size is only 53% and weight 40% of Earth’s. Atmosphere is much thinner and also the temperature is much cooler. Researches have shown that water did flow on Mars in the past and it is still mixed with the soil in some regions of Mars. Soil analysis shows that Mars has been warmer and wetter in the past. 
+
+### Jupiter
+
+Jupiter is the largest of our planets. It has swirling clouds and Giant Red Spot (GRS) that is actually a super storm similar to hurricanes on Earth. Since there are no oceans and no land the GRS keeps sustaining its energy. 
+
+### Saturn
+
+Saturn wins the price for the most gorgeous rings. It has also clouds like Jupiter but they are more pale and not so outstanding. The main reason for this is the layer of haze that is mostly composed of ammonia. 
+
+### Uranus
+
+Uranus was first to thought to be a star when it was found in 1781. There is only little we know about it. 
+
+### Neptune
+
+Neptune has a fascinating cool-blue color that is resulting from higher percentage of methane in the atmosphere. Like Jupiter, Neptune has it’s own storm called the Great Dark Spot (GDS) and smaller storm below it called the Scooter. Neptune also has occasionally high-altitude methane-ice clouds. 
+
+### Earth
+
+Earth is the fifth-largest planet in the solar system and third planet from the sun. Our home planet is unique for many reasons. Water and oxygen are two defining features. While we are orbiting the Sun, we are simultaneously spinning around an axis from the North Pole to the South Pole. It takes 23.934 hours to complete the axis rotation and 365.26 days to complete the orbit around the sun. 
 
 ## The mission
 
@@ -11,10 +49,10 @@ Why did I do this? WHY NOT!
 ## Features for the future
 
 These features could be implemented in the future:
-* Location validation & error message
 * Set location based on user's geolocation
-* Add isLoading (or not: https://kentcdodds.com/blog/stop-using-isloading-booleans)
+* Add isLoading (or not? https://kentcdodds.com/blog/stop-using-isloading-booleans)
 * Expand the range of celestial objects to be shown (asteroids, sun etc.)
+* Add other nice-to-have features like lunar phases
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
