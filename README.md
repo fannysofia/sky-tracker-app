@@ -75,12 +75,12 @@ The user should be able to:
 - [x] navigate through sub-pages like About page
 
 These features could be implemented in the future:
-- [] Set location based on user's geolocation
-- [] Add isLoading (or not? https://kentcdodds.com/blog/stop-using-isloading-booleans)
-- [] Expand the range of celestial objects to be shown (asteroids, sun etc.)
-- [] Add other nice-to-have features like lunar phases
-- [] Suggestion of the correct location if several locations found with same name
-- [] Accessibility: WCAG 2.1 at Level AA
+* Set location based on user's geolocation
+* Add isLoading (or not? https://kentcdodds.com/blog/stop-using-isloading-booleans)
+* Expand the range of celestial objects to be shown (asteroids, sun etc.)
+* Add other nice-to-have features like lunar phases
+* Suggestion of the correct location if several locations found with same name
+* Accessibility: WCAG 2.1 at Level AA
 
 ## Known issues
 
