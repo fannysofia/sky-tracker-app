@@ -48,34 +48,33 @@ The idea of this project was to get more familiar with React and the solar syste
 
 I have been looking piles of astronomy and astrophysics books next to my workstation at home for years. Thanks to my spouse and his books, I have started to realize the fascinating aspects about the space.   
 
-*For instance, on the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much—the wheel, New York, wars and so on—whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man—for precisely the same reasons.*
-*- Douglas Adams, The Hitchhiker's Guide to the Galaxy*
+- *For instance, on the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much—the wheel, New York, wars and so on—whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man—for precisely the same reasons.*
+- *- Douglas Adams, The Hitchhiker's Guide to the Galaxy*
 
 ## Features 
 
 The user should be able to: 
-[x] see the current date and time
-[x] enter a location
-[x] see the info of the current visible celestial objects in the location:
+- [x] see the current date and time
+- [x] enter a location
+- [x] see the info of the current visible celestial objects in the location:
 * the decorative image of the planet/moon
 * if the object is visible to naked eye or binoculars/telescope only
-[x] get error message if the location is invalid
-[x] toggle the current weather info (mainly cloud coverage and visibility) in the location
-[x] navigate through sub-pages like About page
+- [x] get error message if the location is invalid
+- [x] toggle the current weather info (mainly cloud coverage and visibility) in the location
+- [x] navigate through sub-pages like About page
 
 These features could be implemented in the future:
-[] Set location based on user's geolocation
-[] Add isLoading (or not? https://kentcdodds.com/blog/stop-using-isloading-booleans)
-[] Expand the range of celestial objects to be shown (asteroids, sun etc.)
-[] Add other nice-to-have features like lunar phases
-[] Suggestion of the correct location if several locations found with same name
-[] Accessibility: WCAG 2.1 at Level AA
+- [] Set location based on user's geolocation
+- [] Add isLoading (or not? https://kentcdodds.com/blog/stop-using-isloading-booleans)
+- [] Expand the range of celestial objects to be shown (asteroids, sun etc.)
+- [] Add other nice-to-have features like lunar phases
+- [] Suggestion of the correct location if several locations found with same name
+- [] Accessibility: WCAG 2.1 at Level AA
 
 ## Known issues
 
-If the user enters location name that is presented in multiple countries, the first one will be used by default.
-
-In that case, user should define also the country abbreviation. For example: Instead of Melbourne, the user should type Melbourne, AU.
+1. If the user enters location name that is presented in multiple countries, the first one will be used by default.
+* In that case, user should define also the country abbreviation. For example: Instead of Melbourne, the user should type Melbourne, AU.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
