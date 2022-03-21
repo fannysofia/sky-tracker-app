@@ -48,8 +48,7 @@ The idea of this project was to get more familiar with React and the solar syste
 
 I have been looking piles of astronomy and astrophysics books next to my workstation at home for years. Thanks to my spouse and his books, I have started to realize the fascinating aspects about the space.   
 
-- *For instance, on the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much—the wheel, New York, wars and so on—whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man—for precisely the same reasons.*
-- *- Douglas Adams, The Hitchhiker's Guide to the Galaxy*
+> For instance, on the planet Earth, man had always assumed that he was more intelligent than dolphins because he had achieved so much—the wheel, New York, wars and so on—whilst all the dolphins had ever done was muck about in the water having a good time. But conversely, the dolphins had always believed that they were far more intelligent than man—for precisely the same reasons. - Douglas Adams, The Hitchhiker's Guide to the Galaxy
 
 ## Features 
 
