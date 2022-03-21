@@ -53,6 +53,8 @@ Basic requirements I had for the project:
 * for location + weather: [OpenWeatherMap API](https://openweathermap.org/api/)
 - [x] use React state variables
 - [x] use SCSS styling
+- [x] responsive design
+- [x] accessible design
 - [x] use GitHub and version control
 - [x] deploy to GitHub Pages
 - [x] documentation
