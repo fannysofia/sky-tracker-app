@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
 
 const Timestamp = () => {
-  const location = useLocation();
   let [date, setDate] = useState(new Date());
 
   useEffect(() => {
@@ -17,11 +15,9 @@ const Timestamp = () => {
 
   return (
     <>
-    {location.pathname === '/sky-tracker-app' && (
-      <section className='timestamp'>
-          <article>Current Time : {days} {date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</article>
-      </section>
-    )}
+    <section className='timestamp'>
+        <article>Current Time : {days} {date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</article>
+    </section>
     </>
   )
 }
