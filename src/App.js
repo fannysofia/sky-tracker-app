@@ -65,11 +65,18 @@ const App = () => {
       />
       <main>
         <Timestamp />
-        <Location 
-          inputHandler={inputHandler} 
-          getState={inputState} 
-          submitHandler={submitHandler} 
-        />
+        <Routes>
+          <Route 
+            path='/sky-tracker-app' 
+            element= {
+              <Location 
+              inputHandler={inputHandler} 
+              getState={inputState} 
+              submitHandler={submitHandler} 
+              />
+            }
+          />
+        </Routes>
         <Routes>
           <Route 
             path="/sky-tracker-app" 
