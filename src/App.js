@@ -96,11 +96,21 @@ const App = () => {
           />
         </Routes>
       </main>
-      {validLocation && 
-      <CloudCover 
-        onClick={() => setShowCloudCover(!showCloudCover)} 
-        showCloudCover={showCloudCover} 
-      />}
+      <Routes>
+        <Route 
+          path="/sky-tracker-app" 
+          exact 
+          element= {
+            <> 
+            {validLocation && 
+              <CloudCover 
+                onClick={() => setShowCloudCover(!showCloudCover)} 
+                showCloudCover={showCloudCover} 
+              />} 
+            </>
+          }
+        />
+      </Routes>
       <Routes>
       <Route 
         path="/sky-tracker-app" 
