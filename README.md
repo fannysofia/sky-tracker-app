@@ -53,6 +53,11 @@ These features could be implemented in the future:
 * Add isLoading (or not? https://kentcdodds.com/blog/stop-using-isloading-booleans)
 * Expand the range of celestial objects to be shown (asteroids, sun etc.)
 * Add other nice-to-have features like lunar phases
+## Known issues
+
+If the user enters location name that is presented in multiple countries, the first one will be used by default.
+
+In that case, user should define also the country abbreviation. For example: Instead of Melbourne, the user should type Melbourne, AU.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
