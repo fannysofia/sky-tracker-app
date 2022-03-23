@@ -81,7 +81,7 @@ The user should be able to:
 
 ![User has set location to Los Angeles](https://github.com/fannysofia/sky-tracker-app/blob/main/src/assets/img/app-toggle-img-1.png?raw=true)
 ![User has toggled weather information](https://github.com/fannysofia/sky-tracker-app/blob/main/src/assets/img/app-toggle-img-2.png?raw=true)
-- Fig 2. User has set a new location (Los Angeles, US ). Currently Several planets visible. Weather information is toggled at the end of home page.
+- Fig 2-3. User has set a new location (Los Angeles, US ). Currently Several planets visible. Weather information is toggled at the end of home page.
 
 These features could be implemented in the future:
 - [ ] Set location based on user's geolocation
