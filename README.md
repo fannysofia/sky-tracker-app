@@ -76,13 +76,20 @@ The user should be able to:
 - [x] toggle the current weather info (mainly cloud coverage and visibility) in the location
 - [x] navigate through sub-pages like About page
 
+![Default application homepage](https://github.com/fannysofia/sky-tracker-app/blob/main/src/assets/img/app-default-img.png?raw=true)
+- Fig 1. Default landing page with default location (Helsinki, Finland). Currently only one planet visible.
+
+![User has set location to Los Angeles](https://github.com/fannysofia/sky-tracker-app/blob/main/src/assets/img/app-toggle-img-1.png?raw=true)
+![User has toggled weather information](https://github.com/fannysofia/sky-tracker-app/blob/main/src/assets/img/app-toggle-img-2.png?raw=true)
+- Fig 2. User has set a new location (Los Angeles, US ). Currently Several planets visible. Weather information is toggled at the end of home page.
+
 These features could be implemented in the future:
-* Set location based on user's geolocation
-* Add isLoading (or not? https://kentcdodds.com/blog/stop-using-isloading-booleans)
-* Expand the range of celestial objects to be shown (asteroids, sun etc.)
-* Add other nice-to-have features like lunar phases
-* Suggestion of the correct location if several locations found with same name
-* Accessibility: WCAG 2.1 at Level AA
+- [ ] Set location based on user's geolocation
+- [ ] Add isLoading (or not? https://kentcdodds.com/blog/stop-using-isloading-booleans)
+- [ ] Expand the range of celestial objects to be shown (asteroids, sun etc.)
+- [ ] Add other nice-to-have features like lunar phases
+- [ ] Suggestion of the correct location if several locations found with same name
+- [ ] Accessibility: WCAG 2.1 at Level AA
 
 ## Known issues
 
