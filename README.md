@@ -1,18 +1,18 @@
 # Sky Tracker App
 
-## Spiraling through space
+## Spiraling through space :flying_saucer:
 
 Our solar system is made up of a star we call the Sun, eight planets (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune) and billions of other objects like dwarf planets (most known is Pluto), comets, asteroids and meteoroids. 
 
 The whole solar system and its local stars orbits our spiral home galaxy, the Milky Way, at approximately 828,000 kph. It takes our solar system about 230 million years to complete one orbit around the galactic center. 
 
-The planets in our solar system have more than 200 moons in their orbits. 
+The planets in our solar system have more than 200 moons in their orbits. :full_moon:
 
 So far, our solar system is the only one known to support life.
 
 ### Mercury
 
-Mercury is closest to the Sun. It is very hot on the sun side while the dark side can reach freezing temperature. Mercury is very cratered due to debris from comets, asteroids and so on. 
+Mercury is closest to the Sun. :sunny: It is very hot on the sun side while the dark side can reach freezing temperature. Mercury is very cratered due to debris from comets, asteroids and so on. 
 
 ### Venus
 
@@ -26,7 +26,7 @@ Mars is the fourth planet in our solar system. It’s size is only 53% and weigh
 
 Jupiter is the largest of our planets. It has swirling clouds and Giant Red Spot (GRS) that is actually a super storm similar to hurricanes on Earth. Since there are no oceans and no land the GRS keeps sustaining its energy. 
 
-### Saturn
+### Saturn 🪐
 
 Saturn wins the price for the most gorgeous rings. It has also clouds like Jupiter but they are more pale and not so outstanding. The main reason for this is the layer of haze that is mostly composed of ammonia. 
 
@@ -38,7 +38,7 @@ Uranus was first to thought to be a star when it was found in 1781. There is onl
 
 Neptune has a fascinating cool-blue color that is resulting from higher percentage of methane in the atmosphere. Like Jupiter, Neptune has it’s own storm called the Great Dark Spot (GDS) and smaller storm below it called the Scooter. Neptune also has occasionally high-altitude methane-ice clouds. 
 
-### Earth
+### Earth :earth_africa:
 
 Earth is the fifth-largest planet in the solar system and third planet from the sun. Our home planet is unique for many reasons. Water and oxygen are two defining features. While we are orbiting the Sun, we are simultaneously spinning around an axis from the North Pole to the South Pole. It takes 23.934 hours to complete the axis rotation and 365.26 days to complete the orbit around the sun. 
 
