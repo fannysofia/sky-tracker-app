@@ -19,6 +19,7 @@ const App = () => {
   const [latValue, setLat] = useState('63');
   const [lonValue, setLon] = useState('21');
   const [validLocation, setValidLocation] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   const apiKey = process.env.REACT_APP_API_KEY;
 
@@ -38,9 +39,11 @@ const App = () => {
   }, [apiUrl, validState]);
 
   useEffect(() => {
+    setLoading(true);
     fetch(planetApiUrl)
       .then((res) => res.json())
       .then((data) => setPlanets(data.data))
+      .then((data) => data == 'undefined' ? setLoading(true) : setLoading(false));
   }, [planetApiUrl]);
   
   useEffect(() => {
@@ -82,11 +85,12 @@ const App = () => {
             path="/sky-tracker-app" 
             exact 
             element= {
-              <> {validLocation ? ( apiData.main &&
-              <Planets location={apiData} planets={planets} />
+              <> 
+              {validLocation ? ( apiData.main &&
+              <Planets location={apiData} planets={planets} loading={loading} />
               ) : 
               <Error />
-            } 
+            }  
               </>
             }
           />
