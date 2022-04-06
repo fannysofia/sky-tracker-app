@@ -69,7 +69,7 @@ I have been looking piles of astronomy and astrophysics books next to my worksta
 The user should be able to: 
 - [x] see the current date and time
 - [x] enter a location
-- [x] Add loading indicator for API fetch
+- [x] see loading indicator for API fetch
 - [x] see the info of the current visible celestial objects in the location:
 * the decorative image of the planet/moon
 * if the object is visible to naked eye or binoculars/telescope only
