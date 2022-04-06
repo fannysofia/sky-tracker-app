@@ -69,6 +69,7 @@ I have been looking piles of astronomy and astrophysics books next to my worksta
 The user should be able to: 
 - [x] see the current date and time
 - [x] enter a location
+- [x] Add loading indicator for API fetch
 - [x] see the info of the current visible celestial objects in the location:
 * the decorative image of the planet/moon
 * if the object is visible to naked eye or binoculars/telescope only
@@ -85,7 +86,6 @@ The user should be able to:
 
 These features could be implemented in the future:
 - [ ] Set location based on user's geolocation
-- [ ] Add isLoading (or not? https://kentcdodds.com/blog/stop-using-isloading-booleans)
 - [ ] Expand the range of celestial objects to be shown (asteroids, sun etc.)
 - [ ] Add other nice-to-have features like lunar phases
 - [ ] Suggestion of the correct location if several locations found with same name
