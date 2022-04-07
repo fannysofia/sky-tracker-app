@@ -101,6 +101,13 @@ a {
 	}
 }
 
+a:focus,
+button:focus,
+input:focus {
+	outline-offset: 3px;
+	outline: 2px dotted $clr-flesh;
+}
+
 .timestamp {
 	text-align: center;
 	margin-top: 1.875rem;
