@@ -82,7 +82,8 @@ h2 {
 	}
 
 	&:hover {
-		background: $clr-regent-st-blue;
+		background: $clr-tapestry;
+		color: $clr-white;
 	}
 }
 
@@ -96,6 +97,7 @@ a {
 
 	&:hover {
 		color: $clr-tapestry;
+		text-decoration: none;
 	}
 }
 
