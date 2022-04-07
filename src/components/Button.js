@@ -15,7 +15,7 @@ const Button = ({ color, text_color, text, className, onClick }) => {
             onClick={onClick} 
             style={buttonStyles}
             className={className}
-            onMouseEnter={() => setBgColour('#ADD8E6')}
+            onMouseEnter={() => setBgColour(`${hoverColor}`)}
             onMouseLeave={() => setBgColour(`${color}`)}
         >
             {text}
@@ -26,6 +26,7 @@ const Button = ({ color, text_color, text, className, onClick }) => {
 
 Button.defaultProps = {
     color: '#efeff2',
+    hoverColor: '#B768A2',
 }
 
 Button.propTypes = {
