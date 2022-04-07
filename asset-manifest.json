@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sky-tracker-app/static/css/main.e5f0f3eb.css",
+    "main.css": "/sky-tracker-app/static/css/main.ce7018b1.css",
     "main.js": "/sky-tracker-app/static/js/main.88b1d8dd.js",
     "static/js/787.226f4826.chunk.js": "/sky-tracker-app/static/js/787.226f4826.chunk.js",
     "static/media/img-jupiter.png": "/sky-tracker-app/static/media/img-jupiter.eaf36857db18fb4cb54f.png",
@@ -11,12 +11,12 @@
     "static/media/img-saturn.png": "/sky-tracker-app/static/media/img-saturn.436b90006d41c1ae0db2.png",
     "static/media/img-venus.png": "/sky-tracker-app/static/media/img-venus.15d04d48f7474cb9b7e7.png",
     "index.html": "/sky-tracker-app/index.html",
-    "main.e5f0f3eb.css.map": "/sky-tracker-app/static/css/main.e5f0f3eb.css.map",
+    "main.ce7018b1.css.map": "/sky-tracker-app/static/css/main.ce7018b1.css.map",
     "main.88b1d8dd.js.map": "/sky-tracker-app/static/js/main.88b1d8dd.js.map",
     "787.226f4826.chunk.js.map": "/sky-tracker-app/static/js/787.226f4826.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5f0f3eb.css",
+    "static/css/main.ce7018b1.css",
     "static/js/main.88b1d8dd.js"
   ]
 }
