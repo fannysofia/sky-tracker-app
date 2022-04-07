@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types'
 import { useState } from 'react'
 
-const Button = ({ color, text_color, text, className, onClick }) => {
+const Button = ({ color, hoverColor, hoverTextColor, textColor, text, className, onClick }) => {
     const [bgColour, setBgColour] = useState(`${color}`)
 
     const buttonStyles = {
         backgroundColor: `${bgColour}`,
-        color: `${text_color}`,
+        color: `${textColor}`,
       };
 
     return (

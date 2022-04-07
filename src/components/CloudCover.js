@@ -7,7 +7,7 @@ const CloudCover = ({ onClick, showCloudCover  }) => {
       <article className='cloud-button-wrap'>
         <Button 
           color={showCloudCover ? '#686884' : '#efeff2'}
-          text_color={showCloudCover ? '#fff' : '#222'}  
+          textColor={showCloudCover ? '#fff' : '#222'}  
           text={showCloudCover ? 'Hide Weather Info' : 'Show Weather Info'}
           className='btn' 
           onClick={onClick} 
