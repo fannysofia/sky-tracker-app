@@ -95,7 +95,8 @@ h2 {
 a {
 	color: $clr-gray-suit;
 
-	&:hover {
+	&:hover,
+	&:focus {
 		color: $clr-tapestry;
 		text-decoration: none;
 	}
