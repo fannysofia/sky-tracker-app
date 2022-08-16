@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Location from './components/Location'
 import About from './components/About'
+import NotFound from './components/NotFound'
 import Planets from './components/Planets'
 import CloudCover from './components/CloudCover'
 import Timestamp from './components/Timestamp'
@@ -97,6 +98,11 @@ const App = () => {
           <Route 
             path='/sky-tracker-app/about' 
             element={<About />} 
+          />
+          <Route 
+            path="*" 
+            exact 
+            element={<NotFound />}
           />
         </Routes>
       </main>
